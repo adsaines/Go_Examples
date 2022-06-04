@@ -1,0 +1,45 @@
+------------------------------------
+Tutorials
+
+https://ruanmartinelli.com/posts/terraform-cloud-functions-nodejs-api
+    +connect terraform with gcp so that it updates stuff
+
+https://go.dev/doc/tutorial/web-service-gin
+    +create goLang api
+
+https://tutorialedge.net/golang/creating-restful-api-with-golang/
+    +another goLang api
+
+------------------------------------
+Details of Plan
+
+GoLang API Point / Files
+    -"...create a simple API that is deployed as a serverless function on a cloud platform..."
+    -"One possibility is an AWS Lambda function with an API Gateway in front"
+    -Grab data from an API point and return it to the user.
+
+get a ... account
+    -terraform 
+        +no account, just gotta download and deploy
+        +https://www.terraform.io/intro
+        +https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/
+    -cloud platform
+        +google => use this
+            -https://console.cloud.google.com/getting-started => uses google account that's logged in
+            -https://cloud.google.com/docs/terraform
+            -https://www.youtube.com/watch?v=nZCdWbWU0P8
+
+------------------------------------
+TODO
+
+figure out GO API - DONE
+
+figure out http requests in GO for re-route
+
+put files in repo
+
+link terraform to GCP - DONE
+
+push to cloud environment via terraform - not now
+    +too complicated for now, just put the files up manually
+    +https://www.techgeeknext.com/cloud/terraform-gcp-github-example
